@@ -2,7 +2,6 @@ import { Text, View, Image, TouchableOpacity, ScrollView } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { styles } from "../../style/index";
 import { useRouter } from "expo-router";
-import { push } from "expo-router/build/global-state/router";
 
 export default function Index() {
   const insets = useSafeAreaInsets();
